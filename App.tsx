@@ -1,6 +1,6 @@
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import i18n from './utils/i18n/i18n';
+import i18n from './i18n/i18n';
 import { I18nextProvider } from 'react-i18next';
 import Navigation from 'navigation/Navigation';
 import './global.css';

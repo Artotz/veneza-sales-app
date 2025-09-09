@@ -2,7 +2,15 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import * as RNLocalize from 'react-native-localize';
 
-import { resources } from './resources';
+import en from './languages/en';
+import es from './languages/es';
+import pt from './languages/pt';
+
+const resources = {
+  pt,
+  // en,
+  // es,
+};
 
 // Detecta idioma do sistema
 const languageDetector = {

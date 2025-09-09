@@ -16,13 +16,6 @@ export default function MenuScreen({ navigation }: any) {
 
   const menuItems = [
     {
-      key: 'prod',
-      title: t('menu.optionProd'),
-      icon: 'activity',
-      onPress: () => navigation.navigate('ProdStack'),
-      disabled: false,
-    },
-    {
       key: 'future1',
       title: t('menu.optionToCome'),
       icon: 'clock',
@@ -97,10 +90,10 @@ export default function MenuScreen({ navigation }: any) {
           <TouchableOpacity onPress={() => changeLanguage('pt')}>
             <CountryFlag isoCode="br" size={28} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => changeLanguage('en')}>
+          <TouchableOpacity onPress={() => changeLanguage('en')} disabled className="opacity-30">
             <CountryFlag isoCode="us" size={28} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => changeLanguage('es')}>
+          <TouchableOpacity onPress={() => changeLanguage('es')} disabled className="opacity-30">
             <CountryFlag isoCode="es" size={28} />
           </TouchableOpacity>
         </View>

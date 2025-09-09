@@ -28,11 +28,6 @@
       },
       "package": "com.anonymous.venezasalesapp"
     },
-    "userInterfaceStyle": "automatic",
-    "extra": {
-      "eas": {
-        "projectId": "554f1865-acd4-45f9-bc58-2af4168e0425"
-      }
-    }
+    "userInterfaceStyle": "automatic"
   }
 }
