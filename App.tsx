@@ -8,7 +8,7 @@ import './global.css';
 export default function App() {
   return (
     <SafeAreaProvider>
-      <StatusBar style="light" />
+      <StatusBar style="dark" />
       <I18nextProvider i18n={i18n}>
         <Navigation />
       </I18nextProvider>

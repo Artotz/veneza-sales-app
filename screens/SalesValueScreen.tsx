@@ -10,7 +10,7 @@ import Header from 'components/Header';
 import { Feather } from '@expo/vector-icons';
 import machineData from '../utils/consumptionPerMachine';
 
-export default function LDVScreen({ navigation }: any) {
+export default function SalesValueScreen({ navigation }: any) {
   const insets = useSafeAreaInsets();
   const { t } = useTranslation();
 

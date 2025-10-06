@@ -20,7 +20,7 @@ export default {
       economy: 'Economia (R$)',
       perMonth: 'por mês',
       'backhoe loaders': 'Retroescavadeiras',
-      'wheel loaders': 'Pá-Carregadeiras',
+      'wheel loaders': 'Pás-Carregadeiras',
       'motor graders': 'Motoniveladoras',
       'crawler dozers': 'Tratores de Esteira',
       excavators: 'Escavadeiras',
