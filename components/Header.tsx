@@ -3,7 +3,7 @@ import { Text, TouchableOpacity, View } from 'react-native';
 
 export default function Header({ navigation, title, hasBackArrow = true }: any) {
   return (
-    <View className="mb-8 flex-row items-center justify-between">
+    <View className="flex-row items-center justify-between p-4">
       <TouchableOpacity
         className={`${hasBackArrow ? '' : 'invisible'}`}
         onPress={() => {

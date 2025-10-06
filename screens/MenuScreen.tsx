@@ -16,6 +16,13 @@ export default function MenuScreen({ navigation }: any) {
 
   const menuItems = [
     {
+      key: 'ldv',
+      title: t('menu.optionLDV'),
+      icon: 'activity',
+      onPress: () => navigation.navigate('LDV'),
+      disabled: false,
+    },
+    {
       key: 'future1',
       title: t('menu.optionToCome'),
       icon: 'clock',
@@ -56,7 +63,7 @@ export default function MenuScreen({ navigation }: any) {
         paddingRight: insets.right,
       }}>
       <View className="flex-1 bg-[#231f1e]/70 pt-4">
-        <Header title={'OperaX'} hasBackArrow={false} />
+        <Header title={t('menu.title')} hasBackArrow={false} />
 
         <ScrollView className="flex-1 p-4">
           {/* <Header title={t('menu.title')} hasBackArrow={false} /> */}
