@@ -23,11 +23,12 @@ export default function MenuScreen({ navigation }: any) {
       disabled: false,
     },
     {
-      key: 'future1',
-      title: t('menu.optionToCome'),
-      icon: 'clock',
-      onPress: () => {},
-      disabled: true,
+      key: 'salesValue',
+      // title: t('menu.optionSalesValue'),
+      title: 'Valor de Venda',
+      icon: 'dollar-sign',
+      onPress: () => navigation.navigate('SalesValue'),
+      disabled: false,
     },
     {
       key: 'future2',

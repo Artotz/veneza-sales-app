@@ -5,6 +5,7 @@ import MenuScreen from 'screens/MenuScreen';
 import { useTranslation } from 'react-i18next';
 import '../global.css';
 import LDVScreen from 'screens/LDVScreen';
+import SalesValueScreen from 'screens/SalesValueScreen';
 
 const Stack = createStackNavigator();
 
@@ -32,7 +33,12 @@ export default function Navigation() {
         <Stack.Screen
           name="LDV"
           component={LDVScreen}
-          options={{ title: t('menu.screenTitle'), cardStyle: { flex: 1 } }}
+          options={{ title: t('LDV.screenTitle'), cardStyle: { flex: 1 } }}
+        />
+        <Stack.Screen
+          name="SalesValue"
+          component={SalesValueScreen}
+          options={{ title: t('salesValue.screenTitle'), cardStyle: { flex: 1 } }}
         />
         <Stack.Screen
           name="Credits"
